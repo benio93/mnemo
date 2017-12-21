@@ -1,0 +1,171 @@
+
+/*# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiIiwic291cmNlcyI6WyJtYWluLnNjc3MiXSwic291cmNlc0NvbnRlbnQiOlsiIl0sImZpbGUiOiJtYWluLmNzcyJ9 */
+
+.card{
+    width: 93px;
+    height: 143px;
+    background-image: url(../images/cards.png);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+}
+
+.heart-ace{
+    background-position: 0 0;
+}
+.heart-king{
+    background-position: -1175px -143px;
+}
+.heart-queen{
+    background-position: -1076px 0;
+}
+.heart-jack{
+    background-position: -979px 0;
+}
+.heart-ten{
+    background-position: -881px 0;
+}
+.heart-nine{
+    background-position: -783px 0;
+}
+.heart-eight{
+    background-position: -685px 0;
+}
+.heart-seven{
+    background-position: -588px 0;
+}
+.heart-six{
+    background-position: -490px 0;
+}
+.heart-five{
+    background-position: -392px 0;
+}
+.heart-four{
+    background-position: -294px 0;
+}
+.heart-three{
+    background-position: -196px 0;
+}
+.heart-two{
+    background-position: -98px 0;
+}
+
+.diamonds-ace{
+    background-position: 0 -143px;
+}
+.diamonds-king{
+    background-position: -1175px -143px;
+}
+.diamonds-queen{
+    background-position: -1076px -143px;
+}
+.diamonds-jack{
+    background-position: -979px -143px;
+}
+.diamonds-ten{
+    background-position: -881px -143px;
+}
+.diamonds-nine{
+    background-position: -783px -143px;
+}
+.diamonds-eight{
+    background-position: -685px -143px;
+}
+.diamonds-seven{
+    background-position: -588px -143px;
+}
+.diamonds-six{
+    background-position: -490px -143px;
+}
+.diamonds-five{
+    background-position: -392px -143px;
+}
+.diamonds-four{
+    background-position: -294px -143px;
+}
+.diamonds-three{
+    background-position: -196px -143px;
+}
+.diamonds-two{
+    background-position: -98px -143px;
+}
+
+.clubs-ace{
+    background-position: 0 -286px;
+}
+.clubs-king{
+    background-position: -1175px -286px;
+}
+.clubs-queen{
+    background-position: -1076px -286px;
+}
+.clubs-jack{
+    background-position: -979px -286px;
+}
+.clubs-ten{
+    background-position: -881px -286px;
+}
+.clubs-nine{
+    background-position: -783px -286px;
+}
+.clubs-eight{
+    background-position: -685px -286px;
+}
+.clubs-seven{
+    background-position: -588px -286px;
+}
+.clubs-six{
+    background-position: -490px -286px;
+}
+.clubs-five{
+    background-position: -392px -286px;
+}
+.clubs-four{
+    background-position: -294px -286px;
+}
+.clubs-three{
+    background-position: -196px -286px;
+}
+.clubs-two{
+    background-position: -98px -286px;
+}
+
+.spades-ace{
+    background-position: 0 -429px;
+}
+.spades-king{
+    background-position: -1175px -429px;
+}
+.spades-queen{
+    background-position: -1076px -429px;
+}
+.spades-jack{
+    background-position: -979px -429px;
+}
+.spades-ten{
+    background-position: -881px -429px;
+}
+.spades-nine{
+    background-position: -783px -429px;
+}
+.spades-eight{
+    background-position: -685px -429px;
+}
+.spades-seven{
+    background-position: -588px -429px;
+}
+.spades-six{
+    background-position: -490px -429px;
+}
+.spades-five{
+    background-position: -392px -429px;
+}
+.spades-four{
+    background-position: -294px -429px;
+}
+.spades-three{
+    background-position: -196px -429px;
+}
+.spades-two{
+    background-position: -98px -429px;
+}
+
