@@ -1,7 +1,7 @@
 import React from 'react';
 import CardApp from './cardapp.jsx';
 import CardMemoriser from './cardmemoriser.jsx';
-import CardList from './cardlist.jsx'
+import CardList from './cardlist.jsx';
 
 class ShuffleCardDeck extends React.Component{
     constructor(props){
@@ -11,9 +11,9 @@ class ShuffleCardDeck extends React.Component{
             memoryHider: false
         }
     }
-
     componentDidMount(){
         const shuffledCards = this.state.data;
+        console.log(this.state.data)
 
         for (let i = shuffledCards.length - 1; i > 0; i--) {
             let j = Math.floor(Math.random() * (i + 1));
@@ -21,14 +21,22 @@ class ShuffleCardDeck extends React.Component{
         }
         this.setState({
             data: shuffledCards
-        })
+        });
+    }
+    showHandler= () => {
+        this.setState({
+            memoryHider: true
+        });
+    }
+    getData = (cardData) => {
+        console.log(cardData)
     }
     render(){
         return (
-            <div>
-                <CardApp  data = {this.state.data} />
-                <CardMemoriser data = {this.state.data} memoryHider = {this.state.memoryHider}/>
-            </div>
+                 <div>
+                    <CardApp  data = {this.state.data} showMethod = {this.showHandler}  />
+                    <CardMemoriser data = {this.state.data} memoryHider = {this.state.memoryHider} sendData = {this.getData}/>
+                 </div>
         )
     }
 }

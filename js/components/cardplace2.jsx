@@ -1,12 +1,16 @@
 import React from 'react';
 
 class CardPlace2 extends React.Component{
+    clickHandler = (event) => {
+        event.preventDefault()
+        this.props.correctMethod(false)
+    };
     render(){
         let randomiser = Math.floor((Math.random() * 50) + 1);
         return (
-            <p  className={this.props.data[randomiser].class} style = {{ height: 143, float: "left"}}>
+            <a href = "#"   onClick={this.clickHandler} className={this.props.data[randomiser].class} style = {{ height: 143,margin: 5, float: "left"}}>
 
-            </p>
+            </a>
         )
     }
 }

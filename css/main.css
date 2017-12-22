@@ -1,5 +1,19 @@
 
 /*# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiIiwic291cmNlcyI6WyJtYWluLnNjc3MiXSwic291cmNlc0NvbnRlbnQiOlsiIl0sImZpbGUiOiJtYWluLmNzcyJ9 */
+body{
+    font-family: 'Lato', sans-serif;
+}
+.simonides{
+    background-image: url(../images/simonides.jpeg);
+    height: 300px;
+    width: 200px;
+    z-index: 5;
+    background-position: center;
+    background-size: cover;
+    margin: 0 auto;
+    float: right;
+    margin-top: -300px;
+}
 
 .card{
     width: 93px;
@@ -7,6 +21,7 @@
     background-image: url(../images/cards.png);
     background-repeat: no-repeat;
     background-position: 0 0;
+    outline: none;
 }
 
 .heart-ace{
@@ -169,3 +184,11 @@
     background-position: -98px -429px;
 }
 
+.indygo{
+    background-color: indigo;
+    height: 40px;
+    width: 80px;
+    border-radius: 25%;
+    font-size: 20px;
+    color: white;
+}
